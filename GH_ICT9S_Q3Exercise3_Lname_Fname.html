@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Sofia&display=swap" rel="stylesheet">
+	<style type="text/css">
+		h1,h2, h3{
+			font-family: Sofia;
+		}
+		p,td{
+			font-family: Oswald;
+		}
+		img{
+			height: 100px;
+			width: 80px;
+		}
+		body{
+			background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/71J6YPxNauhFABbjHpGluJ/631bd6980b0a430d5b476ef331abb2b5/release_1_hogwarts.png');
+			background-size: cover;
+		}
+	</style>
+	<title>Q3 Exercise 3</title>
+</head>
+
+<body>
+	<h2 class="bg-light text-dark text-center">Hogwarts School of Witchcraft and Wizardy</h2>
+	
+	<div class="container">
+	
+	<table class="table table-striped table-dark table-hover" width="300">
+		<tr>
+			<th>Profile</th>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>House</th>
+		</tr>
+		<tr>
+			<td><img src="https://static.wikia.nocookie.net/harrypotter/images/2/21/Hermione_Granger_OOTP_profile.jpg/revision/latest/scale-to-width-down/200?cb=20211009005846" class="img-thumbnail"></td>
+			<td>Hermione</td>
+			<td>Granger</td>
+			<td>Gryffindor</td>
+		</tr>
+		<tr>
+			<td><img src="https://images.ctfassets.net/usf1vwtuqyxm/t6GVMDanqSKGOKaCWi8oi/74b6816d9f913623419b98048ec87d25/LunaLovegood_WB_F5_LunaLovegoodPromoCloseUp_Promo_080615_Port.jpg?w=914&q=70&fm=jpg" class="img-thumbnail"></td>
+			<td>Luna</td>
+			<td>Lovegood</td>
+			<td>Ravenclaw</td>
+		</tr>
+		<tr>
+			<td><img src="https://upload.wikimedia.org/wikipedia/en/5/5e/Ron_Weasley_poster.jpg" class="img-thumbnail"></td>
+			<td>Ronald</td>
+			<td>Weasley</td>
+			<td>Gryffindor</td>
+		</tr>
+		<tr>
+			<td><img src="https://media.harrypotterfanzone.com/draco-malfoy-philosophers-stone-portrait.jpg" class="img-thumbnail"></td>
+			<td>Draco</td>
+			<td>Malfoy</td>
+			<td>Slytherin</td>
+		</tr>
+	</table>
+	<div class="container text-light bg-dark">
+	<h2>Bootstrap Form</h2>
+
+	<form class="form-group">
+		<div class="checkbox">
+			<input type="checkbox" name="old">OLD STUDENT
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" name="new">NEW STUDENT
+		</div>
+
+		Enter Firstname: <input type="text" name="fname" class="form-control">
+		Enter Lastname:<input type="text" name="lname" class="form-control">
+		Choose Grade and Section:
+		<select class="form-control">
+			<option>Emerald</option>
+			<option>Ruby</option>
+			<option>Sapphire</option>
+			<option>Topaz</option>
+		</select>
+		Choose Date Enrolled:
+		<input type="date" name="enrolled" class="form-control">
+		Upload School Records:
+		<input type="file" name="records" class="form-control">
+		<br>
+		<input type="submit" value="ADD STUDENTS" class="btn btn-success btn-block">
+		<input type="reset" value="CANCEL" class="btn btn-danger btn-block">
+		
+
+	</form>
+	</div>
+
+
+	<h6 class="bg-dark text-light">References : <a href="https://characters.fandom.com/wiki/Hermione_Granger"> Harry Potter Fandom. https://characters.fandom.com/wiki </a></h6>
+	<small class="text-light">&copy;jbsaints2023</small>
+</div>
+</body>
+</html>
